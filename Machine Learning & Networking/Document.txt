@@ -1,0 +1,4 @@
+Supervised Learning - Labeled Data, Predicting Future, Direct Feedback
+Unsupervised Learning - Unlabeled Data, No Feedback, Finding Hidden Structure
+Reinforcement Learning - Reward System, Decision Process, Learning Series of Actions
+
