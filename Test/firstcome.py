@@ -3,8 +3,8 @@ d = dict()
 
 for i in range(n):
     k = "P"+str(i+1)
-    a = int(input("Arrival"))
-    b = int(input("Burst"))
+    a = int(input("Arrival "))
+    b = int(input("Burst "))
     l = []
     l.append(a)
     l.append(b)
@@ -32,6 +32,6 @@ av = sum(WT)/len(WT)
 for i in range(n):
     print(d[i][0]," ", d[i][1][0]," ", d[i][1][1]," ",ET[i], " ", TAT[i], " ", WT[i])
 
-print("==", d[i][1][0],"==", end=" ")
+print("==",d[i][1][0],"==",end=" ")
 for i in range(n):
-    print(d[i][0], "==", ET[i],"==", end="")
+    print(d[i][0],"==",ET[i],"==",end=" ")
